@@ -1,14 +1,12 @@
-# Brain Image Registration and 3D Reconstruction
+# Brain Image Registration and 3D Reconstruction 
 
 **Computer Vision | Academic Project | Heinrich Heine University Düsseldorf**
 
 ## 1. Project Overview
-
 This project explores image registration techniques for aligning consecutive 2D brain scan images as part of a 3D reconstruction workflow. The primary objective is to estimate geometric transformations between adjacent image slices and improve their alignment using both manually selected and automatically detected image features.
 The project investigates image processing, feature detection, feature matching, robust transformation estimation, and image registration.
 
 ## 2. Technologies and Libraries
-
 - **Programming Language:** Python
 - **Image Processing:** OpenCV, scikit-image, Pillow, tifffile
 - **Numerical Computing:** NumPy, SciPy
