@@ -4,10 +4,7 @@
 
 ## 1. Project Overview
 
-This project explores image registration techniques for aligning consecutive 2D brain scan images as part of a 3D reconstruction workflow.
-
-The primary objective is to estimate geometric transformations between adjacent image slices and improve their alignment using both manually selected and automatically detected image features.
-
+This project explores image registration techniques for aligning consecutive 2D brain scan images as part of a 3D reconstruction workflow. The primary objective is to estimate geometric transformations between adjacent image slices and improve their alignment using both manually selected and automatically detected image features.
 The project investigates image processing, feature detection, feature matching, robust transformation estimation, and image registration.
 
 ## 2. Technologies and Libraries
@@ -17,8 +14,6 @@ The project investigates image processing, feature detection, feature matching, 
 - **Numerical Computing:** NumPy, SciPy
 - **Visualization:** Matplotlib, napari
 - **Development Environment:** Google Colab, Jupyter Notebook
-
-## 3. Methodology
 
 ### 3.1 Manual Image Registration
 
