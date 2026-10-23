@@ -95,11 +95,7 @@ This project was completed as part of Computer Vision coursework at Heinrich Hei
 
 The project follows a university-provided assignment and was developed in a group setting. University-provided materials and individual contributions should be credited appropriately before public release.
 
-## Dataset and Acknowledgements
-
+## Dataset and Acknowledgements 
 The brain scan images used in this project were provided by a research group at Heinrich Heine University Düsseldorf (HHU) for educational purposes as part of the Computer Vision coursework.
-
-The dataset is not included in this repository because redistribution permission has not been confirmed.
-
 The project explores image registration techniques using university-provided data and assignment materials.
 GitHub: [MdRasel-Hossain](https://github.com/MdRasel-Hossain)
