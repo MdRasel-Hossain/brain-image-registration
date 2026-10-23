@@ -3,8 +3,7 @@
 **Computer Vision | Academic Project | Heinrich Heine University Düsseldorf**
 
 ## 1. Project Overview
-This project explores image registration techniques for aligning consecutive 2D brain scan images as part of a 3D reconstruction workflow. The primary objective is to estimate geometric transformations between adjacent image slices and improve their alignment using both manually selected and automatically detected image features.
-The project investigates image processing, feature detection, feature matching, robust transformation estimation, and image registration.
+This project explores image registration techniques for aligning consecutive 2D brain scan images as part of a 3D reconstruction workflow. The primary objective is to estimate geometric transformations between adjacent image slices and improve their alignment using both manually selected and automatically detected image features. The project investigates image processing, feature detection, feature matching, robust transformation estimation, and image registration.
 
 ## 2. Technologies and Libraries
 - **Programming Language:** Python
@@ -16,9 +15,7 @@ The project investigates image processing, feature detection, feature matching, 
 ### 3.1 Manual Image Registration
 
 The initial stage explores image alignment using corresponding keypoints between adjacent brain scan images.
-
 The workflow includes:
-
 - Loading and visualizing brain scan images.
 - Examining image properties and intensity statistics.
 - Identifying corresponding keypoints.
@@ -27,10 +24,7 @@ The workflow includes:
 
 ### 3.2 Image Processing and Enhancement
 
-Several image processing techniques are investigated to prepare the images for registration.
-
-These include:
-
+Several image processing techniques are investigated to prepare the images for registration. These include:
 - Image downsampling and bilinear interpolation.
 - Histogram equalization.
 - Gaussian, mean, and median filtering.
@@ -39,9 +33,7 @@ These include:
 
 ### 3.3 Automatic Feature Detection and Matching
 
-Automatic feature-based registration is explored using SIFT (Scale-Invariant Feature Transform).
-
-The workflow includes:
+Automatic feature-based registration is explored using SIFT (Scale-Invariant Feature Transform). The workflow includes:
 
 1. Detecting image keypoints and extracting descriptors.
 2. Matching features between adjacent images.
@@ -52,18 +44,14 @@ The workflow includes:
 
 ### 3.4 Reconstruction Workflow
 
-The final stage investigates the registration of consecutive 2D brain scan slices using the techniques developed in the preceding stages.
-
-The complete 3D reconstruction and its evaluation require further verification before reporting a final result.
+The final stage investigates the registration of consecutive 2D brain scan slices using the techniques developed in the preceding stages. The complete 3D reconstruction and its evaluation require further verification before reporting a final result.
 
 **brain_image_registration.ipynb:** Main notebook containing experiments, visualizations, image processing and registration workflows.
 
 **functions_student.py:** Supporting Python implementations for transformations, filtering, feature extraction, matching, and RANSAC.
 
 ## 5. Running the Project
-
 The project was developed using Google Colab.
-
 1. Open `brain_image_registration.ipynb` in Google Colab.
 2. Make the required Python dependencies available.
 3. Place `functions_student.py` in the notebook's working directory.
@@ -76,12 +64,9 @@ The project was developed using Google Colab.
 
 ## 6. Results and Evaluation
 
-The notebook contains visual experiments involving image transformations, filtering, feature matching, and registration.
-
-A quantitative evaluation of registration accuracy, reconstruction quality, and runtime performance has not yet been finalized for this README.
+The notebook contains visual experiments involving image transformations, filtering, feature matching, and registration. A quantitative evaluation of registration accuracy, reconstruction quality, and runtime performance has not yet been finalized for this README.
 
 ## 7. Limitations and Future Improvements
-
 - Verify the full registration workflow from a clean environment.
 - Evaluate alignment quality using appropriate quantitative metrics.
 - Compare manual and automatic registration approaches.
@@ -91,9 +76,7 @@ A quantitative evaluation of registration accuracy, reconstruction quality, and 
 
 ## 8. Academic Context
 
-This project was completed as part of Computer Vision coursework at Heinrich Heine University Düsseldorf.
-
-The project follows a university-provided assignment and was developed in a group setting. University-provided materials and individual contributions should be credited appropriately before public release.
+This project was completed as part of Computer Vision coursework at Heinrich Heine University Düsseldorf. The project follows a university-provided assignment and was developed in a group setting. University-provided materials and individual contributions should be credited appropriately before public release.
 
 ## Dataset and Acknowledgements 
 The brain scan images used in this project were provided by a research group at Heinrich Heine University Düsseldorf (HHU) for educational purposes as part of the Computer Vision coursework.
